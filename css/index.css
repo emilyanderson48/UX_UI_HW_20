@@ -347,19 +347,48 @@ h4 {
     width: 100%
   }
 
-.row {
+.slide {
     height: 52.375rem;
+}
+
+.chatColumn {
+   align-self: center;
+   
+}
+
+.personColumn {
+    align-self: center;
     
+ }
+
+
+.personBubble {
+    scale: 95%;
+    padding: 2rem 0rem;
+}
+
+.chatBlurb {
+    scale: 95%;
+    padding: 2rem 0rem;
+}
+
+.chatContainer {
+    position: relative;
+}
+.insideChat {
+    position: absolute;
+    align-items: start;
 }
 h7 {
     padding-left: .17rem;
     font-size: 2rem;
-    
+    padding: bottom 1.6rem; ;
 }
 
 h3 {
     font-size: 1.625rem;
     text-transform: capitalize;
+    padding-top: 4.13rem;
 }
 
 h4 {
@@ -376,6 +405,10 @@ h4 {
     width: 11.25rem;
     align-items: bottom;
 }
+ .special { 
+    margin-top:3.75rem;
+ }
+
 
 .roundedBgText {
     padding-top: .82rem;
@@ -391,14 +424,16 @@ h4 {
 
 }
 .pet1 {
-   scale: 50%;
+    justify-content: center;
+    scale: 50%;
     width: 10.296rem;
     height: 29.65606rem;
     padding-right: 1.54rem;
 }
 
 .pet2 {
-   scale: 50%;
+    justify-content: center;
+    scale: 50%;
     width: 10.296rem;
     height: 29.65606rem;
     padding-left: 1.54rem;
@@ -407,10 +442,21 @@ h4 {
 
 }
 .pet3 {
+    justify-content: center;
     scale: 50%;
     width: 10.296rem;
     height: 29.65606rem;
     padding-right: 1.54rem ;
+}
+
+#userInterviews {
+    background: var(--slide-mid-1-tone-rr, #D9F6FF);
+    
+}
+
+
+#researchInsights {
+    background: #E7ECEF;
 }
 
 
