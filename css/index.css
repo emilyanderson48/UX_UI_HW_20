@@ -1,0 +1,426 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* navbar STARTS */
+
+.label {
+    display: inline-block;
+   
+    padding: 9.88rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 1.56rem;
+    padding-bottom: 0.69rem;
+    
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+
+.label:hover {
+    font-size: 1.65rem;
+
+   
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.auto1 {
+background-color: white;
+   height: 6rem;
+   /* navbar drop shadow */
+   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.03);
+   padding-top: 4rem;
+   padding-left: 5.94rem;
+   margin-right: 5.94rem;
+   /*
+   padding-right: 5.94rem;
+   */
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.auto2 {
+    display: inline-block;
+    margin-left: auto;
+
+}
+
+.logo {
+    display: inline-flex;
+    font-size: 3.75rem;
+    padding-right: 24rem;
+    
+}
+
+.largeLogo {
+    font-size: 8.125rem;
+    font-weight: 400;
+    font-style: normal;
+    width: 49.5rem;
+    height: 19.5rem;
+    padding-left: 5.5rem;
+    padding-right: 65 rem;
+    display: inline-block;
+    position: relative;
+    top: -8.56rem;
+}
+
+
+/*navbar ENDS*/
+
+body {
+    font-family: non-seasonal geo;
+    font-size: 1.15rem;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    padding-left: 13.5rem;
+    padding-top: 4rem;
+    font-size: 2.5rem;
+}
+
+
+h4 {
+    font-size: 2rem;
+
+}
+
+
+.image {
+    justify-content: left;
+    align-items: center;
+}
+
+
+.aboutMe {
+    width: 49.5rem;
+    padding-left: 13.5rem;
+    padding-top: 4rem;
+}
+
+.homeDescr {
+    width: 49.5rem;
+    padding-left: 13.5rem;
+    padding-top: 4rem;
+}
+
+
+/* Work START*/
+
+
+.workGrid {
+    display: grid;
+    padding-top: 4rem;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+
+.rrContainer {
+    position: relative;
+    background-color: skyblue;
+    max-width: 100%;
+    height: 29.5625rem;
+    
+}
+
+.foraContainer {
+    position: relative;
+    background-color: #89A9F1;
+    max-width: 100%;
+    height: 29.5625rem;
+    
+}
+
+.blankContainer {
+    position: relative;
+    background-color: pink;
+    max-width: 100%;
+    height: 29.5625rem;
+    
+}
+/* this is positioning the project image to the right side of the card. still needs to be tweaked visually but this is a starting point */
+.projectImg {
+    height: 28.3125rem;
+    position: absolute;
+    right: .60rem;    
+}
+
+/* this is the <h4> in each work card */
+
+.projectTitle {
+    position: absolute; /* this is only working because parent has 'position: relative' */
+    bottom: 8rem; /* think of as '8 rem from the bottom' */
+    left: 4rem;
+    padding: 5px;
+    margin: 0;
+}
+
+/*t this is the <p> element holding a description of the project. this goes under the <h4> */
+.projectDescr {
+    position: absolute; /* this is only working because parent has 'position: relative' */
+    bottom: 6rem; /* think of as '8 rem from the bottom' */
+    left: 4rem;
+    padding: 5px;
+    margin: 0;
+
+}
+
+
+/* Work END*/
+
+
+/* My Skills START */
+
+.mySkills {
+    justify-content: center;
+    padding-top: 4rem;
+   
+}
+
+.skill1 {
+    background-color: lightblue;
+    flex-basis: 50rem;
+    padding: 3rem;
+}
+
+.skill2 {
+    background-color: pink;
+    flex-basis: 50rem;
+    padding: 3rem;
+
+}
+
+.skill3 {
+    background-color: pink;
+    flex-basis: 50rem;
+    padding: 3rem;
+}
+
+
+.flexContainer {
+    display: flex;
+    margin-bottom: 4rem;
+    
+   
+}
+
+.flexContainer div {
+    width: 100%;
+}
+
+.aboutDescr {
+    flex: 1;
+    padding-right: 4rem;
+    padding-left: 20.75rem;
+}
+
+.aboutImg {
+    flex: 1;
+    position: right;
+    background-color: lightgray;
+    max-width: 30rem;
+    height: 28rem;
+    padding-right: .7rem;
+    
+ 
+}
+
+.aboutLayout {
+    display: flex;
+    align-items: top;
+    padding: 20px;
+}
+
+.homeImg {
+    flex: 1;
+    position: right;
+    background-color: lightgray;
+    max-width: 30rem;
+    height: 28rem;
+    margin-right: 6.25rem;
+
+ 
+}
+.homeLayout {
+    display: flex;
+    align-items: top;
+    padding: 20px;
+}
+
+.homeDescr {
+    flex: 1;
+    padding-right: 4rem;
+    
+}
+
+
+/* Footer Items */
+
+.socContainer {
+    display: inline-block;
+    
+}
+
+.soc {
+    display: inline-block;
+    padding: 0rem .5rem;
+    
+}
+
+.letsConnect {
+    width: 100%;
+    background-color: #1E3D62;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: .5rem;
+   
+}
+
+.email {
+    font-size: 2rem;
+}
+
+.emailIcon {
+    scale: 60%
+   
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: start;
+    padding: 4rem 8rem;
+    
+}
+
+footer li {
+    padding: .5rem;
+}
+
+.footerLogo {
+    padding-top: 2rem;
+}
+
+footer {
+    background-color: #1E3D62;
+    color: white;
+}
+
+
+
+/*imported from activities -- use to create an underlined button state for navbar tabs? 
+
+this would obviously go in html
+<div class="gridChild loadingBar">
+  <div id="progressbar">
+    <div class="orangeBar">
+    </div>
+  </div>
+</div>
+@keyframes loadBar {
+  from {
+    width: 40%;
+
+  }
+  to {
+    width: 100%;
+  }
+
+  #progressbar {
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 61px;
+    padding: 3px;
+  
+  }
+  #progressbar > .orangeBar {
+    background-color: red;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    /* add the animation name here for the progress bar
+    animation: loadBar 4s;
+    animation-fill-mode: forwards;
+  }
+
+-----end import from activity */
+
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 600){
+     /* DESKTOP 
+    #categoryGrid {
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+        "RescueRiders Fora blank"
+        "blank blank blank"
+        "blank blank blank"
+        ;
+    }
+
+    */
+
+    /*  MOBILE */
+   
+   
+    #categoryGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template: 1fr;
+        grid-template-areas:
+        "RescueRiders"
+        "Fora"
+        "blank"
+        "blank"
+        "blank"
+        "blank"
+        "blank"
+        "blank"
+        "blank";
+    }
+}
+
+^ Media Queries (above) ^ */
