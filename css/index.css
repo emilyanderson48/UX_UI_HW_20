@@ -327,7 +327,7 @@ h4 {
 
 /* Bootstrap stuff START */
 .container-fluid {
-    margin: 6.25rem;
+    
 }
 .valueProp {
     margin-top: 15px;
@@ -343,6 +343,10 @@ h4 {
    
   }
   
+  .sectionHeading {
+    margin: 6.25rem;
+    padding-top: 4rem!important;
+  }
   .imageContainer img {
     width: 100%
   }
@@ -382,7 +386,8 @@ h4 {
 h7 {
     padding-left: .17rem;
     font-size: 2rem;
-    padding: bottom 1.6rem; ;
+    padding: bottom 1.6rem;
+    
 }
 
 h3 {
@@ -396,6 +401,12 @@ h4 {
     width: 26rem;
 }
 
+.special { 
+    margin-top:3.75rem;
+ }
+
+ /* "roundedBg" meant to signify "rounded background" i.e. text with rounded background */
+
 .roundedBg {
     background-color: #618291;
     color: white;
@@ -405,14 +416,12 @@ h4 {
     width: 11.25rem;
     align-items: bottom;
 }
- .special { 
-    margin-top:3.75rem;
- }
-
 
 .roundedBgText {
     padding-top: .82rem;
 }
+
+/* text content "descr1" and "descr2" need specific padding relative to the rounded backgrounds ("roundedBg") */
 
 .descr1 {
     padding-top: 1.22rem;
@@ -423,77 +432,90 @@ h4 {
     padding-top: 1.03rem;
 
 }
-.pet1 {
-    justify-content: center;
+.petFriends {
     scale: 50%;
     width: 10.296rem;
     height: 29.65606rem;
     padding-right: 1.54rem;
 }
 
-.pet2 {
-    justify-content: center;
-    scale: 50%;
-    width: 10.296rem;
-    height: 29.65606rem;
-    padding-left: 1.54rem;
-    padding-right: 1.54rem;
-    padding-bottom: 14.91rem;
-
-}
-.pet3 {
-    justify-content: center;
-    scale: 50%;
-    width: 10.296rem;
-    height: 29.65606rem;
-    padding-right: 1.54rem ;
+/* begin User Interviews (row 2) */
+#projOverview {
+    padding-left: 6.25rem;
 }
 
 #userInterviews {
-    background: var(--slide-mid-1-tone-rr, #D9F6FF);
-    
+    background: var(--slide-mid-1-tone-rr, #D9F6FF); 
+    padding-left: 6.25rem;  
+    max-width: 1728px;
 }
 
+
+/* begin Research Insights (row 3) */
 
 #researchInsights {
     background: #E7ECEF;
+    padding-left: 6.25rem;
+    max-width: 1728px;
 }
-
 
 .card-title {
     background-color: #618291;
 }
 
+.researchStuff {
+    width: 100%;
+    justify-content: center;
+   
+}
+
 .researchBlob {
     height: 28.7rem;
-    width: 23.4375rem;
 
     background-color: #122B37;
     color: white;
     text-align: center;
+    /*
     padding-right: 2.31rem;
     padding-left: 2.31rem;
+    */
     border-top-right-radius: 23.4375rem;
     border-top-left-radius: 23.4375rem;
 }
 
+.card-text {
+    width: 100%;
+}
+
+.card-body {
+    width: 100%;
+}
+
 .icon1 {
     width: 3.36rem;
-    height: 4rem;  
     padding-bottom: 3.94rem;
+    padding-top: 2.5rem;
 }
+
+/* begin "semiSlide" (insert between slides 1 & 2) */
 
 #semiSlide {
     height: 13.0625rem;
     display: inline-block;
+    max-width: 1728px;
     
 }
 
+.semiSlide {
 
-.card-text {
-    
-    width: 18.8125rem;
+    max-width: 1728px;
+    scale: 90%;
+    margin-left: 4.4rem;
 }
+
+
+
+
 /* Bootstrapstuff END */
 
 footer ul {
