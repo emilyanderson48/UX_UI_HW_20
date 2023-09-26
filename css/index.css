@@ -460,6 +460,35 @@ h4 {
 }
 
 
+.card-title {
+    background-color: #618291;
+}
+
+.researchBlob {
+    height: 28.7rem;
+    width: 23.4375rem;
+
+    background-color: #122B37;
+    color: white;
+    text-align: center;
+    padding-right: 2.31rem;
+    padding-left: 2.31rem;
+    border-top-right-radius: 23.4375rem;
+    border-top-left-radius: 23.4375rem;
+}
+
+.icon1 {
+    width: 3.36rem;
+    height: 4rem;  
+    padding-bottom: 3.94rem;
+}
+
+
+
+.card-text {
+    
+    width: 18.8125rem;
+}
 /* Bootstrapstuff END */
 
 footer ul {
